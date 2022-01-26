@@ -68,6 +68,7 @@ export default {
   beforeMount() {
     this.hider()
   },
+
 };
 </script>
 

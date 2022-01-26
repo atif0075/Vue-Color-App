@@ -25,13 +25,7 @@ export default {
   created() {
     window.addEventListener('keydown', (e) => {
       if (e.key == 'Enter') {
-        try {
-          this.funClr()
-          console.log("Enter")
-        } catch (error) {
-          this.funGrad()
-          console.log("Enter")
-        }
+        this.funClr()
       }
       else if (e.key == 'a' || e.key == 'A') {
         btn1.click()
